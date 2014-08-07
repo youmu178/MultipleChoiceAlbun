@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_camera_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="拍  照"
+        android:textColor="#4C4C4C" />
+
+    <TextView
+        android:id="@+id/mapstorage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_camera_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="从手机相册选择"
+        android:textColor="#4C4C4C" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_camera_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="取  消"
+        android:textColor="#4C4C4C" />
+
+</LinearLayout>
